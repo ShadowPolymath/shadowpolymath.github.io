@@ -52,3 +52,24 @@ ul li a {
 ul li a:hover {
     text-decoration: underline;
 }
+/* Tornar imagens responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ajustar menu em telemóveis */
+nav {
+    font-size: 16px;
+}
+
+/* Ajustes de padding para ecrãs pequenos */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
